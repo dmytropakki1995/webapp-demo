@@ -17,12 +17,6 @@ source venv/bin/activate
 # Windows
 venv\Scripts\activate
 
-# install dependencies
-uv sync
-
-# Activate .venv
-source .venv/bin/activate
-
 # Install packages
 pip install -r requirements.txt
 
