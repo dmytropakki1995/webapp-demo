@@ -20,6 +20,7 @@ HTML = """
         <option value="-">-</option>
         <option value="*">*</option>
         <option value="/">/</option>
+        <option value="pow">pow</option>
     </select>
 
     <input type="number" step="any" name="b" required>
@@ -50,6 +51,8 @@ def calculator():
             result = a - b
         elif op == "*":
             result = a * b
+        elif op == "pow":
+            result = a ** b
         elif op == "/":
             if b == 0:
                 result = "Ділення на нуль!"
