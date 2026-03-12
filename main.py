@@ -44,6 +44,8 @@ def calculator():
         b = float(request.form["b"])
         op = request.form["op"]
 
+        print("Test logs")
+
         if op == "+":
             result = a + b
         elif op == "-":
