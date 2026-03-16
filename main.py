@@ -9,6 +9,8 @@ elif operation == "-":
     result = a - b
 elif operation == "*":
     result = a * b
+elif operation == "pow":
+    result = a ** b
 elif operation == "/":
     if b == 0:
         result = "Ділення на нуль!"
